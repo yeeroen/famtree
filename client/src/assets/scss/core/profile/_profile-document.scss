@@ -1,0 +1,19 @@
+.profile-document {
+    margin-top: 15px;
+
+    &__title {
+        font-weight: 500;
+    }
+
+    &__download {
+        span {
+            margin: 0 5px;
+        }
+        a {
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+}

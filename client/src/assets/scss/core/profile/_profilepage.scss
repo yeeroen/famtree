@@ -1,0 +1,23 @@
+.profile {
+    min-height: 100vh;
+    background: #EFEFEF;
+
+    h3 {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+
+    &__inner {
+        min-height: 100vh;
+        background: #fff;
+        padding-top: 25px;
+        
+    }
+
+    &__fullname {
+        font-size: 48px;
+        font-weight: 900;
+    }
+
+}

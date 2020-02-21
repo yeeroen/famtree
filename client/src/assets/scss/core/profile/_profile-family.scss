@@ -1,0 +1,21 @@
+.profile__family {
+
+    .family-item {
+
+        margin-top: 15px;
+
+        &__title {
+            font-weight: 600;
+            font-size: 18px;
+        }
+
+        &__role {
+            font-weight: 500;
+            vertical-align: top;
+        }
+
+        &__value {
+            padding-left: 15px;
+        }
+    }
+}

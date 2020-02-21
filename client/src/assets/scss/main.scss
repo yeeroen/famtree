@@ -1,0 +1,20 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Barlow:100,200,300,400,500,600,700,800,900&display=swap");
+@import '../fonts/fonts';
+
+// Frameworks
+@import '../foundation/scss/foundation';
+
+// Componenets
+@import './core/profile/profilepage';
+
+// Parts
+@import './core/profile/add-event';
+@import './core/profile/popup-card';
+@import './core/profile/profile-document';
+@import './core/profile/profile-event';
+@import './core/profile/profile-family';
+
+@include foundation-global-styles;
+@include foundation-typography;
+@include foundation-xy-grid-classes;
